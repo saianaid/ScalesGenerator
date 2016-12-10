@@ -13,8 +13,13 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    musiccommons.cpp \
+    mode.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    musiccommons.h \
+    mode.h \
+    definitions.h
 
 FORMS    += mainwindow.ui
